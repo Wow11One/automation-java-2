@@ -23,7 +23,7 @@ public class StringValidationUtils {
     }
 
     public static boolean isEmail(String value) {
-        String regex = "[a-zA-z0-9]{5,20}@[a-z]{3,}\\.[a-z]{2,}";
+        String regex = "[a-zA-z0-9.]{5,20}@[a-z]{3,}\\.[a-z]{2,}";
         return value.matches(regex);
     }
 }

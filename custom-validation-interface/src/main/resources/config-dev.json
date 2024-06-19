@@ -1,0 +1,5 @@
+{
+  "includeLogs": true,
+  "useGuava": true,
+  "listMaxSize": 10
+}
